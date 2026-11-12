@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Perguntas e respostas sobre IBS e CBS na Reforma Tributária, com base legal e histórico de alterações.">
+<title>FAQ Reforma Tributária · JD Contabilidade</title>
+<style>html{color-scheme:light}body{margin:0}[hidden]{display:none!important}img{max-width:100%}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
+<style>
+/* Layout: texto compilado de consulta. Índice fixo à esquerda, coluna de leitura à direita, busca no topo. */
+:root {
+  --bg: #f4f6f7;
+  --paper: #ffffff;
+  --ink: #16212a;
+  --muted: #5a6772;
+  --line: #d9dfe3;
+  --accent: #0b6b66;
+  --accent-weak: #e2f0ee;
+  --struck: #8b959d;
+  --note: #8a5300;
+  --note-bg: #fdf2dc;
+  --mark: #ffe28a;
+  --font-display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1518; --paper: #162024; --ink: #e4ebee; --muted: #9aa8b1; --line: #2a373d;
+    --accent: #5cc4bb; --accent-weak: #173532; --struck: #74828a; --note: #f2c26b; --note-bg: #33270f; --mark: #6b5310;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1518; --paper: #162024; --ink: #e4ebee; --muted: #9aa8b1; --line: #2a373d;
+  --accent: #5cc4bb; --accent-weak: #173532; --struck: #74828a; --note: #f2c26b; --note-bg: #33270f; --mark: #6b5310;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15.5px; line-height: 1.6; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); border-bottom: 1px solid var(--line); }
+.topbar-inner { max-width: 1180px; margin: 0 auto; padding-block: 12px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px; }
+.brand { display: flex; flex-direction: column; min-width: 0; }
+.brand-eyebrow { font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+.brand-name { font-family: var(--font-display); font-size: 21px; font-weight: 700; line-height: 1.2; text-wrap: balance; }
+.updated { font-size: 13px; color: var(--muted); white-space: nowrap; }
+.updated b { color: var(--ink); font-weight: 600; }
+.search { flex: 1 1 280px; display: flex; align-items: center; gap: 8px; margin-left: auto; max-width: 460px; }
+.search input { width: 100%; font: inherit; font-size: 15px; padding: 9px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--ink); }
+.search input::placeholder { color: var(--muted); }
+.search-count { font-size: 12.5px; color: var(--muted); white-space: nowrap; flex: 0 0 auto; }
+.clear { font: inherit; font-size: 13px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 6px; padding: 7px 10px; cursor: pointer; }
+
+.wrap { max-width: 1180px; margin: 0 auto; padding-block: 24px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 32px; align-items: start; }
+.toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 84px); max-height: calc(100vh - 110px); overflow: auto; font-size: 13.5px; padding-right: 4px; }
+.toc details { border: 0; }
+.toc summary { display: none; }
+.toc h3 { font-size: 11px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); margin: 18px 0 6px; font-weight: 600; }
+.toc h3:first-of-type { margin-top: 0; }
+.toc ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; }
+.toc a { display: grid; grid-template-columns: 26px 1fr; gap: 4px; padding: 5px 8px; border-radius: 5px; color: var(--ink); text-decoration: none; line-height: 1.35; }
+.toc a .n { color: var(--muted); font-variant-numeric: tabular-nums; font-family: var(--font-mono); font-size: 12px; padding-top: 1px; }
+.toc a:hover { background: var(--accent-weak); }
+.toc a.on { background: var(--accent-weak); color: var(--accent); font-weight: 500; }
+.toc a.dim { opacity: .4; }
+
+main { min-width: 0; }
+.latest { background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 16px 18px; margin-bottom: 22px; }
+.latest-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+.latest-head h2 { font-family: var(--font-display); font-size: 17px; margin: 0; }
+.latest-head a { font-size: 13px; }
+.latest ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.latest li { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 12px; font-size: 14px; line-height: 1.45; }
+.latest .d { font-family: var(--font-mono); font-size: 12.5px; color: var(--note); padding-top: 1px; }
+.latest .s { color: var(--muted); font-size: 12.5px; }
+
+.doc { background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 8px 32px 32px; }
+.doc section { padding-top: 8px; scroll-margin-top: calc(env(safe-area-inset-top, 0px) + 84px); }
+.doc section + section { border-top: 1px solid var(--line); margin-top: 18px; }
+.doc h2 { font-family: var(--font-display); font-size: 24px; line-height: 1.25; margin: 22px 0 10px; text-wrap: balance; }
+.doc h2 .n { color: var(--accent); margin-right: 6px; }
+.doc p, .doc li { max-width: 72ch; }
+.doc p { margin: 0 0 12px; }
+.doc p > strong:first-child { color: var(--ink); display: block; margin-bottom: 2px; font-weight: 600; }
+.doc ul, .doc ol { margin: 0 0 14px; padding-left: 22px; }
+.doc li { margin-bottom: 4px; }
+.doc li input[type=checkbox] { margin: 0 8px 0 -2px; vertical-align: -1px; accent-color: var(--accent); }
+.doc ul:has(> li > input[type=checkbox]) { list-style: none; padding-left: 4px; }
+.doc code { font-family: var(--font-mono); font-size: .9em; background: var(--bg); padding: 1px 4px; border-radius: 3px; }
+.doc del { color: var(--struck); text-decoration-color: var(--struck); }
+.doc del a { color: var(--struck); }
+.update-note { background: var(--note-bg); padding: 10px 14px; border-radius: 4px; border-left: 3px solid var(--note); }
+.update-note .tag { display: inline-block; font-size: 11px; letter-spacing: .07em; text-transform: uppercase; font-weight: 600; color: var(--note); margin-right: 6px; }
+.table-wrap { overflow-x: auto; margin: 6px 0 16px; border: 1px solid var(--line); border-radius: 6px; }
+.doc table { border-collapse: collapse; width: 100%; font-size: 14px; line-height: 1.45; }
+.doc th { text-align: left; background: var(--bg); font-weight: 600; font-size: 13px; color: var(--muted); }
+.doc th, .doc td { padding: 8px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.doc tr:last-child td { border-bottom: 0; }
+.doc td:first-child { font-variant-numeric: tabular-nums; }
+mark { background: var(--mark); color: inherit; border-radius: 2px; padding: 0 1px; }
+.hit-hidden { display: none !important; }
+.empty-search { padding: 28px 0; color: var(--muted); }
+
+.flow { display: grid; grid-template-columns: minmax(0, 1fr) 24px minmax(0, 1.3fr) 24px minmax(0, 1fr); align-items: center; gap: 8px; margin: 14px 0 6px; font-size: 13.5px; line-height: 1.4; }
+.flow .box { border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; background: var(--paper); }
+.flow .box b { display: block; font-weight: 600; }
+.flow .box span { color: var(--muted); font-size: 12.5px; }
+.flow .mid { display: grid; gap: 8px; }
+.flow .end { border-color: var(--accent); background: var(--accent-weak); }
+.flow .arrow { color: var(--muted); text-align: center; font-size: 18px; }
+.flow-cap { font-size: 12.5px; color: var(--muted); margin-bottom: 14px; }
+
+.footer { color: var(--muted); font-size: 13px; margin-top: 18px; }
+.loading { padding: 40px 0; color: var(--muted); }
+
+@media (max-width: 860px) {
+  .wrap { grid-template-columns: minmax(0, 1fr); gap: 16px; padding-block: 16px 48px; }
+  .toc { position: static; max-height: none; overflow: visible; background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 0; }
+  .toc summary { display: block; padding: 12px 14px; font-weight: 600; cursor: pointer; }
+  .toc .toc-body { padding: 0 10px 12px; }
+  .doc { padding: 4px 18px 24px; }
+  .doc h2 { font-size: 21px; }
+  .search { max-width: none; margin-left: 0; }
+  .flow { grid-template-columns: minmax(0, 1fr); }
+  .flow .arrow { transform: rotate(90deg); }
+  .latest li { grid-template-columns: minmax(0, 1fr); gap: 0; }
+}
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-eyebrow">JD Contabilidade · IBS e CBS</span>
+      <span class="brand-name">FAQ Reforma Tributária</span>
+    </div>
+    <span class="updated" id="updated">Carregando…</span>
+    <form class="search" id="search-form" role="search">
+      <input id="q" type="search" placeholder="Buscar: nota de crédito, split, RAD, aluguel…" aria-label="Buscar no FAQ" autocomplete="off">
+      <span class="search-count" id="count" aria-live="polite"></span>
+      <button class="clear" id="clear" type="button" hidden>Limpar</button>
+    </form>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="toc" aria-label="Seções">
+    <details id="toc-details">
+      <summary>Seções do FAQ</summary>
+      <div class="toc-body" id="toc"></div>
+    </details>
+  </nav>
+  <main>
+    <div class="latest" id="latest" hidden>
+      <div class="latest-head"><h2>Últimas alterações</h2><a href="#s21">Ver histórico completo</a></div>
+      <ul id="latest-list"></ul>
+    </div>
+    <article class="doc" id="doc"><p class="loading">Carregando o FAQ…</p></article>
+    <p class="footer">Material informativo, atualizado conforme a publicação de normas oficiais. Quando uma resposta muda, o texto antigo aparece riscado e a redação nova logo abaixo, com data e fonte, como na legislação compilada. Não substitui a análise do caso concreto por um profissional. Responsável técnico: Gabriel Suliani, CRC/SC 036.256/O-2.</p>
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script>
+(function () {
+  var doc = document.getElementById('doc');
+  if (!window.matchMedia('(max-width: 860px)').matches) document.getElementById('toc-details').open = true;
+  var groups = [];
+  var sections = [];
+
+  var FLOW_HTML =
+    '<div class="flow" role="img" aria-label="Quem quitar o imposto da nota libera o crédito do comprador">' +
+      '<div class="box"><b>Nota emitida</b><span>IBS/CBS destacados</span></div>' +
+      '<div class="arrow" aria-hidden="true">→</div>' +
+      '<div class="mid">' +
+        '<div class="box"><b>Fornecedor paga a guia</b><span>ou compensa com seus créditos, até o último dia útil do mês seguinte</span></div>' +
+        '<div class="box"><b>Comprador recolhe (RAD)</b><span>guia vinculada à nota; paga o líquido ao fornecedor</span></div>' +
+        '<div class="box"><b>Split payment</b><span>banco retém no pagamento; 2º semestre de 2027, facultativo, B2B</span></div>' +
+      '</div>' +
+      '<div class="arrow" aria-hidden="true">→</div>' +
+      '<div class="box end"><b>Débito da nota quitado</b><span>crédito do comprador liberado</span></div>' +
+    '</div><p class="flow-cap">Três caminhos para quitar o imposto da nota.</p>';
+
+  function norm(s) {
+    var out = '';
+    for (var i = 0; i < s.length; i++) {
+      var c = s[i].normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+      out += c.length === 1 ? c : s[i].toLowerCase().charAt(0);
+    }
+    return out;
+  }
+
+  function cleanMarkdown(md) {
+    var lines = md.replace(/\r\n/g, '\n').split('\n');
+    // remove o título e a linha de data/autor do documento original
+    if (/^#\s/.test(lines[0] || '')) lines.shift();
+    for (var i = 0; i < 4 && i < lines.length; i++) {
+      if (/@|^\w{3} \d{1,2}, \d{4}/.test(lines[i]) && !/^#/.test(lines[i])) { lines.splice(i, 1); break; }
+    }
+    md = lines.join('\n');
+    md = md.replace(/^&#91;embedded content:[^\n]*$/gm, '<div data-flow></div>');
+    return md;
+  }
+
+  function slugFor(text) {
+    var m = text.match(/^(\d+)\./);
+    if (m) return 's' + m[1];
+    return norm(text).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40) || 'secao';
+  }
+
+  function build(md) {
+    var html = marked.parse(cleanMarkdown(md), { gfm: true });
+    var tmp = document.createElement('div');
+    tmp.innerHTML = html;
+
+    // agrupa por seção (h2)
+    var frag = document.createDocumentFragment();
+    var cur = null;
+    Array.prototype.slice.call(tmp.childNodes).forEach(function (node) {
+      if (node.nodeType === 3 && !node.textContent.trim()) return;
+      if (node.nodeName === 'H2') {
+        cur = document.createElement('section');
+        var title = node.textContent.trim();
+        cur.id = slugFor(title);
+        var m = title.match(/^(\d+)\.\s*(.*)$/);
+        if (m) node.innerHTML = '<span class="n">' + m[1] + '.</span>' + node.innerHTML.replace(/^\s*\d+\.\s*/, '');
+        cur.appendChild(node);
+        frag.appendChild(cur);
+        sections.push({ id: cur.id, num: m ? m[1] : '', title: m ? m[2] : title, el: cur });
+        return;
+      }
+      if (!cur) { cur = document.createElement('section'); cur.id = 'inicio'; frag.appendChild(cur); }
+      if (node.nodeName === 'TABLE') {
+        var w = document.createElement('div'); w.className = 'table-wrap'; w.appendChild(node); node = w;
+      }
+      cur.appendChild(node);
+    });
+    doc.innerHTML = '';
+    doc.appendChild(frag);
+
+    doc.querySelectorAll('[data-flow]').forEach(function (el) { el.outerHTML = FLOW_HTML; });
+    doc.querySelectorAll('a[href]').forEach(function (a) {
+      if (!/^#/.test(a.getAttribute('href'))) { a.target = '_blank'; a.rel = 'noopener'; }
+    });
+    doc.querySelectorAll('p').forEach(function (p) {
+      var t = p.textContent.trim();
+      var m = t.match(/^Redação atualizada em (\d{2}\/\d{2}\/\d{4})/);
+      if (m) {
+        p.classList.add('update-note');
+        var tag = document.createElement('span'); tag.className = 'tag'; tag.textContent = 'Atualização';
+        p.insertBefore(tag, p.firstChild);
+      }
+    });
+    doc.querySelectorAll('li input[type=checkbox]').forEach(function (c) { c.setAttribute('aria-hidden', 'true'); c.tabIndex = -1; });
+
+    buildGroups();
+    buildToc();
+    buildLatest();
+  }
+
+  function buildGroups() {
+    groups = [];
+    sections.forEach(function (s) {
+      var g = null;
+      Array.prototype.slice.call(s.el.children).forEach(function (el) {
+        if (el.nodeName === 'H2') return;
+        var isQ = el.nodeName === 'P' && el.firstElementChild && el.firstElementChild.nodeName === 'STRONG' &&
+                  el.firstChild === el.firstElementChild && /\?\s*$|[^.]$/.test(el.firstElementChild.textContent.trim());
+        if (!g || isQ) { g = { sec: s, els: [] }; groups.push(g); }
+        g.els.push(el);
+      });
+    });
+    groups.forEach(function (g) {
+      g.text = norm(g.els.map(function (e) { return e.textContent; }).join(' ') + ' ' + g.sec.title);
+    });
+  }
+
+  function buildToc() {
+    var toc = document.getElementById('toc');
+    var bands = [
+      { t: 'Regras', f: function (n) { return n >= 1 && n <= 11; } },
+      { t: 'Dia a dia', f: function (n) { return n >= 12 && n <= 19; } },
+      { t: 'Referência', f: function (n) { return n >= 20; } }
+    ];
+    var html = '<ol>';
+    sections.filter(function (s) { return !s.num; }).forEach(function (s) {
+      html += '<li><a href="#' + s.id + '" data-id="' + s.id + '"><span class="n">·</span><span>' + esc(s.title) + '</span></a></li>';
+    });
+    html += '</ol>';
+    bands.forEach(function (b) {
+      var list = sections.filter(function (s) { return s.num && b.f(+s.num); });
+      if (!list.length) return;
+      html += '<h3>' + b.t + '</h3><ol>';
+      list.forEach(function (s) {
+        var label = s.title.replace(/^Dia a dia:\s*/i, '');
+        html += '<li><a href="#' + s.id + '" data-id="' + s.id + '"><span class="n">' + s.num + '</span><span>' + esc(label.charAt(0).toUpperCase() + label.slice(1)) + '</span></a></li>';
+      });
+      html += '</ol>';
+    });
+    toc.innerHTML = html;
+    toc.addEventListener('click', function (e) {
+      var a = e.target.closest('a'); if (!a) return;
+      if (window.matchMedia('(max-width: 860px)').matches) document.getElementById('toc-details').open = false;
+    });
+
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) {
+            toc.querySelectorAll('a').forEach(function (a) { a.classList.toggle('on', a.dataset.id === en.target.id); });
+          }
+        });
+      }, { rootMargin: '-90px 0px -70% 0px' });
+      sections.forEach(function (s) { io.observe(s.el); });
+    }
+  }
+
+  function buildLatest() {
+    var hist = document.getElementById('s21');
+    var upd = document.getElementById('updated');
+    if (!hist) { upd.textContent = ''; return; }
+    var rows = hist.querySelectorAll('tbody tr');
+    if (!rows.length) { upd.textContent = ''; return; }
+    var first = rows[0].cells[0].textContent.trim();
+    upd.innerHTML = 'Atualizado em <b>' + esc(first) + '</b>';
+    var list = document.getElementById('latest-list');
+    var html = '';
+    for (var i = 0; i < Math.min(3, rows.length); i++) {
+      var c = rows[i].cells;
+      var what = c[2] ? c[2].textContent.trim() : '';
+      if (what.length > 190) what = what.slice(0, 187).replace(/\s+\S*$/, '') + '…';
+      var sec = c[1] ? c[1].textContent.trim() : '';
+      html += '<li><span class="d">' + esc(c[0].textContent.trim()) + '</span><span>' + esc(what) +
+              (sec ? ' <span class="s">Seção ' + esc(sec) + '</span>' : '') + '</span></li>';
+    }
+    list.innerHTML = html;
+    document.getElementById('latest').hidden = false;
+  }
+
+  function esc(s) { return s.replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  // ---- busca ----
+  function clearMarks() {
+    doc.querySelectorAll('mark[data-hit]').forEach(function (m) {
+      var t = document.createTextNode(m.textContent); m.parentNode.replaceChild(t, m);
+    });
+    doc.normalize();
+  }
+  function markIn(el, q) {
+    var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+    var nodes = []; var n;
+    while ((n = walker.nextNode())) nodes.push(n);
+    nodes.forEach(function (node) {
+      var text = node.nodeValue; var nt = norm(text); var idx = nt.indexOf(q);
+      if (idx < 0) return;
+      var frag = document.createDocumentFragment(); var pos = 0;
+      while (idx >= 0) {
+        frag.appendChild(document.createTextNode(text.slice(pos, idx)));
+        var m = document.createElement('mark'); m.setAttribute('data-hit', ''); m.textContent = text.slice(idx, idx + q.length);
+        frag.appendChild(m); pos = idx + q.length; idx = nt.indexOf(q, pos);
+      }
+      frag.appendChild(document.createTextNode(text.slice(pos)));
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+  var emptyMsg = null;
+  function runSearch(raw) {
+    var q = norm(raw.trim());
+    clearMarks();
+    doc.querySelectorAll('.hit-hidden').forEach(function (e) { e.classList.remove('hit-hidden'); });
+    if (emptyMsg) { emptyMsg.remove(); emptyMsg = null; }
+    var count = document.getElementById('count'); var clear = document.getElementById('clear');
+    var latest = document.getElementById('latest');
+    var tocLinks = document.querySelectorAll('#toc a');
+    tocLinks.forEach(function (a) { a.classList.remove('dim'); });
+    if (q.length < 2) { count.textContent = ''; clear.hidden = !raw; latest.hidden = !document.getElementById('latest-list').children.length; return; }
+    clear.hidden = false; latest.hidden = true;
+    var hits = 0; var secHits = {};
+    groups.forEach(function (g) {
+      var ok = g.text.indexOf(q) >= 0;
+      g.els.forEach(function (e) { e.classList.toggle('hit-hidden', !ok); });
+      if (ok) {
+        hits++; secHits[g.sec.id] = true;
+        g.els.forEach(function (e) {
+          e.querySelectorAll && e.querySelectorAll('tbody tr').forEach(function (tr) {
+            if (norm(tr.textContent).indexOf(q) < 0 && norm(e.textContent).indexOf(q) >= 0) {
+              var any = Array.prototype.some.call(e.querySelectorAll('tbody tr'), function (r) { return norm(r.textContent).indexOf(q) >= 0; });
+              if (any) tr.classList.add('hit-hidden');
+            }
+          });
+          markIn(e, q);
+        });
+      }
+    });
+    sections.forEach(function (s) { s.el.classList.toggle('hit-hidden', !secHits[s.id]); });
+    tocLinks.forEach(function (a) { a.classList.toggle('dim', !secHits[a.dataset.id]); });
+    count.textContent = hits ? hits + (hits === 1 ? ' resultado' : ' resultados') : 'Nada encontrado';
+    if (!hits) {
+      emptyMsg = document.createElement('p'); emptyMsg.className = 'empty-search';
+      emptyMsg.textContent = 'Nenhuma resposta tem esse termo. Tente uma palavra mais curta, como "crédito", "nota" ou "Simples".';
+      doc.appendChild(emptyMsg);
+    }
+  }
+  var timer;
+  var qInput = document.getElementById('q');
+  qInput.addEventListener('input', function () { clearTimeout(timer); var v = qInput.value; timer = setTimeout(function () { runSearch(v); }, 160); });
+  document.getElementById('search-form').addEventListener('submit', function (e) { e.preventDefault(); runSearch(qInput.value); });
+  document.getElementById('clear').addEventListener('click', function () { qInput.value = ''; runSearch(''); qInput.focus(); });
+
+  function goHash() {
+    var id = location.hash.slice(1);
+    if (!id) return;
+    var el = document.getElementById(id);
+    if (el) el.scrollIntoView();
+  }
+  window.addEventListener('hashchange', goHash);
+
+  function fail() {
+    doc.innerHTML = '<p class="loading">Não foi possível carregar o FAQ agora. Recarregue a página em alguns instantes.</p>';
+    document.getElementById('updated').textContent = '';
+  }
+
+  fetch('faq.md', { cache: 'no-cache' }).then(function (r) {
+    if (!r.ok) throw new Error(r.status);
+    return r.text();
+  }).then(function (md) {
+    if (!window.marked) throw new Error('marked');
+    build(md);
+    goHash();
+  }).catch(fail);
+})();
+</script>
+
+</body>
+</html>
