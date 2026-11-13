@@ -20,7 +20,9 @@ Em 1º/1/2027 a CBS passa a ser cobrada de verdade e PIS/COFINS deixam de existi
 | 2029 a 2032 | Cheia | Sobe a cada ano | Extintos | Reduzidos em 10%, 20%, 30% e 40% |
 | 2033 em diante | Cheia | Cheio | Extintos | Extintos |
 
-**O que muda, na prática, em 1º/1/2027?** Para quem é do regime regular (Lucro Real e Presumido): PIS e COFINS acabam e entra a CBS, não cumulativa, com crédito amplo sobre as compras. O IBS de 0,1% passa a ser devido de fato. As notas fiscais já precisam sair com os campos de IBS/CBS corretos. Para o Simples Nacional: os documentos fiscais passam a exigir os campos de IBS/CBS e entram as novas regras da Res. CGSN 190/2026 (seção 8).
+**O que muda, na prática, em 1º/1/2027?** Para quem é do regime regular (Lucro Real e Presumido): PIS e COFINS acabam e entra a CBS, não cumulativa, com crédito amplo sobre as compras. O IBS de 0,1% passa a ser devido de fato. As notas fiscais já precisam sair com os campos de IBS/CBS corretos. ~~Para o Simples Nacional: os documentos fiscais passam a exigir os campos de IBS/CBS e entram as novas regras da Res. CGSN 190/2026 (seção 8).~~
+
+Redação atualizada em 13/11/2026 (fonte: [Ato Conjunto RFB/CGIBS nº 7, de 11/11/2026](https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-7-de-11-de-novembro-de-2026-744148934)): para o Simples Nacional, entram as novas regras da Res. CGSN 190/2026 (seção 8), e os campos de IBS/CBS passam a ser exigidos em duas datas: na NFS-e a partir de 1º/1/2027 e na NF-e e na NFC-e de mercadorias a partir de 1º/3/2027 (seção 2).
 
 **Qual é a alíquota da CBS em 2027?** Ainda não está fixada. O TCU aprovou em 28/10/2026 a proposta de alíquota de referência de 11,3% ~~e a enviou ao Senado, que tem até 15/12/2026 para aprová-la por resolução~~; sem deliberação, vale o cálculo do TCU ([Senado Notícias](https://www12.senado.leg.br/noticias/materias/2026/10/28/reforma-tributaria-tcu-calcula-aliquota-da-cbs-em-11-3-para-2027), [Conjur](https://conjur.com.br/2026-out-28/tcu-propoe-aliquota-de-referencia-da-cbs-em-113-para-2027/)). Em 2027 e 2028 a alíquota aplicada é a de referência reduzida em 0,1 ponto percentual (art. 585 do Regulamento da CBS; art. 347 da LC 214). Atividades com redução (60%, 40%, 30% etc.) aplicam o percentual sobre essa alíquota.
 
@@ -34,17 +36,28 @@ Redação atualizada em 04/11/2026 (fonte: [Senado Notícias, 03/11/2026](https:
 
 ## 2. Documentos fiscais
 
-Todos os documentos fiscais eletrônicos ganham os grupos de IBS e CBS; para o regime regular a obrigação já começou em 2026 e para o Simples Nacional começa em 1º/1/2027 (Ato Conjunto RFB/CGIBS nº 4, de 30/07/2026).
+Todos os documentos fiscais eletrônicos ganham os grupos de IBS e CBS; para o regime regular a obrigação já começou em 2026 ~~e para o Simples Nacional começa em 1º/1/2027~~ (Ato Conjunto RFB/CGIBS nº 4, de 30/07/2026).
 
 | Documento | Regime regular: obrigatório desde |
 | --- | --- |
 | NF-e, NFC-e, CT-e, CT-e OS, MDF-e, NF3e, GTV-e, DC-e, BP-e (exceto semiurbano/metropolitano/aéreo) | 03/08/2026 |
 | NFS-e de serviços da LC 116 sujeitos ao ISS (regra geral), NFCom | 01/10/2026 |
-| NFS-e de locação, condomínio, bens imateriais, plataformas e serviços fora da LC 116; NF-e de quem não é contribuinte do ICMS; NFAg, NFGas | 01/12/2026 |
+| ~~NFS-e de locação, condomínio, bens imateriais, plataformas e serviços fora da LC 116;~~ NF-e de quem não é contribuinte do ICMS~~; NFAg, NFGas~~ | 01/12/2026 |
 | Duimp e NF-e de importação; NF-e de produtos monofásicos | 01/01/2027 |
-| **Todos os documentos, para optantes do Simples Nacional** | **01/01/2027** |
+| ~~**Todos os documentos, para optantes do Simples Nacional**~~ | ~~**01/01/2027**~~ |
 
 Fontes: [FiscoScan, texto do Ato Conjunto nº 4/2026](https://www.fiscoscan.com.br/norma/ato-conjunto-cgibs-4-2026); [Felsberg](https://www.felsberg.com.br/cronograma-documentos-fiscais-ibs-cbs-2026).
+
+Redação atualizada em 13/11/2026 (fonte: [Ato Conjunto RFB/CGIBS nº 7, de 11/11/2026](https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-7-de-11-de-novembro-de-2026-744148934)): o ato, já em vigor, mudou parte do cronograma do Ato Conjunto nº 4/2026. As datas que mudaram:
+
+| Documento | Obrigatório a partir de |
+| --- | --- |
+| NFS-e de bens imateriais fora do ISS e do ICMS, de taxas e outras receitas de condomínio edilício, de locação de bens móveis e de locação, cessão ou arrendamento de imóveis, e dos demais serviços sem enquadramento próprio; NFGas e NFAg | 01/01/2027 |
+| NFS-e de plataformas digitais e de serviços intermediados por elas; NFS-e dos subitens 1.03, 1.05 e 1.09 da LC 116 (processamento de dados, licenciamento de software e conteúdo pela internet) e 16.01 (transporte coletivo municipal); BP-e semiurbano, metropolitano e aéreo; NF-e de alienação de bens imóveis (modelo 77) | 01/03/2027 |
+| **Simples Nacional:** NFS-e de serviços sujeitos ao ISS, bens imateriais, condomínio, locação e demais serviços | **01/01/2027** |
+| **Simples Nacional:** todos os demais documentos, inclusive NF-e e NFC-e nas vendas de mercadorias | **01/03/2027** |
+
+O Ato nº 7 não mudou a NF-e de quem não é contribuinte do ICMS, que segue obrigatória desde 01/12/2026, nem as datas gerais de NF-e, NFC-e e CT-e do regime regular. O adiamento não dispensa notas que já são exigidas hoje: a NFS-e nacional do Simples continua obrigatória desde 01/11/2026. Empresa do Simples que vende mercadoria e presta serviço terá duas datas: NFS-e com IBS/CBS em janeiro e NF-e ou NFC-e em março de 2027.
 
 **Se eu emitir sem os campos de IBS/CBS, a nota é rejeitada?** Hoje não. A rejeição por ausência dos campos, prevista para 03/08/2026, foi adiada pelo Ato Técnico Conjunto RFB/CGIBS nº 1/2026 e ainda não tem nova data. Mas a obrigação de destacar continua valendo, e campo preenchido de forma inconsistente já rejeita a nota ([CGIBS](https://www.cgibs.gov.br/receita-federal-e-comite-gestor-do-ibs-esclarecem-adiamento-das-regras-de-validacao-dos-documentos-fiscais-eletronicos), [Taxcel](https://taxcel.com.br/ibs-cbs-nota-fiscal-2026-obrigatorio-rejeicao)). Não conte com a ausência de trava: em 2027 a apuração assistida é montada a partir das notas, então nota sem IBS/CBS vira apuração errada.
 
@@ -64,6 +77,8 @@ Redação atualizada em 03/11/2026 (fonte: [Ato Técnico Conjunto RFB/CGIBS nº 
 
 **O DANFE (a nota impressa) vai mudar?** Sim. A NT 2026.010 (v1.00, de 01/10/2026) cria no DANFE um bloco "Total do IBS/CBS/IS", logo depois dos totais de ICMS e IPI, e mostra no quadro do emitente o regime tributário. A implantação está prevista para até dezembro de 2026; o modelo de impressão e o PDF do sistema precisam ser atualizados ([Portal da Reforma Tributária](https://www.reformatributaria.com/documentos-fiscais/nfe-tera-novo-leiaute-de-danfe-com-campos-para-ibs-cbs-e-imposto-seletivo/)).
 
+**Meu sistema manda a NF-e em lote e busca a autorização depois. Vai parar de funcionar?** Vai. A NT 2023.002 (v1.02, publicada no [Portal da NF-e](https://dfe-portal.svrs.rs.gov.br/NFe/Documentos) em 26/10/2026) acaba com a autorização assíncrona da NF-e e da NFC-e: o emissor envia a nota e recebe a resposta na mesma comunicação, e cada lote de NFC-e passa a ter uma nota só. Segundo o divulgado, os testes vão até 01/02/2027 e a regra entra em produção em 05/04/2027. A mesma NT desativa o pedido de inutilização de numeração no Acre, na Bahia e em São Paulo (segundo o divulgado, desde 11/11/2026): nesses estados a empresa passa a controlar internamente os números não usados. Confirme com o fornecedor do emissor ([DFSpro](https://www.dfspro.com.br/blog/noticias-3/nt-2023-002-v1-02-acaba-com-a-autorizacao-assincrona-da-nf-e-em-05-04-2027-228); [Contábeis](https://www.contabeis.com.br/noticias/80412/nf-e-tera-fim-da-autorizacao-assincrona-em-2027/)).
+
 **E a NFS-e?** Os serviços passam para o padrão nacional (DPS/NFS-e), com os grupos de IBS/CBS. Para o Simples Nacional, a NFS-e nacional obrigatória foi fixada em 1º/11/2026 pela Res. CGSN nº 191/2026 ~~(informação de fonte secundária; confirmar no DOU antes de orientar cliente)~~.
 
 Redação atualizada em 12/11/2026 (fonte: [Res. CGSN nº 191/2026, DOU de 10/08/2026](https://economia.df.gov.br/documents/d/seec/resol-cgsn-n-191-2026-pdf)): confirmado no texto oficial. Desde 1º/11/2026 a ME e a EPP do Simples que prestam serviço emitem obrigatoriamente a NFS-e de padrão nacional, pelo Emissor Nacional (site ou integração por API), inclusive quando a opção pelo Simples estiver pendente. É proibido usar a NFS-e nacional em operação sujeita só ao ICMS. O destaque de IBS e CBS pelo optante começa em 1º/1/2027.
@@ -71,6 +86,8 @@ Redação atualizada em 12/11/2026 (fonte: [Res. CGSN nº 191/2026, DOU de 10/08
 **O leiaute da NFS-e vai mudar de novo?** Sim. A NT 009 do Comitê Gestor da NFS-e (v1.01, publicada em 01/10/2026) traz um leiaute novo: CNPJ com letras e números, CST e cClassTrib antes do grupo de IBS/CBS, finalidade da nota (regular, crédito ou débito), campos para locação de imóveis e a situação "optante pendente" no Simples. Segundo o divulgado, a nova versão entra em produção em 01/12/2026 e inclui código de serviço próprio para condomínios (99.05.01); as notas de crédito e débito na NFS-e ainda não têm data. Peça ao fornecedor do emissor ou do sistema a atualização antes de dezembro ([Portal da NFS-e, documentação RTC](https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc); [e-Auditoria](https://www.e-auditoria.com.br/blog/nota-tecnica-009/)).
 
 **Quem vende para órgão público ou importa tem regra diferente?** Sim. Compras governamentais têm redutor próprio de alíquota, e a importação de bens passa a sair na Duimp com IBS/CBS a partir de 1º/1/2027. Nesses casos, tratar caso a caso.
+
+**Importo mercadorias ou recebo remessas do exterior. O que muda no sistema do despachante?** A Duimp passa a ter os campos de IBS/CBS no leiaute 77.0.0, aprovado pelo [Ato Técnico Conjunto RFB/CGIBS nº 11, de 10/11/2026](https://www.cgibs.gov.br/upload/arquivos/202611/12145422-ato-tecnico-conjunto-11-duimp.pdf). A Declaração de Importação de Remessa (DIR), usada nas remessas postais e expressas, tem leiaute próprio (versão 1.0), aprovado pelo [Ato Técnico Conjunto RFB/CGIBS nº 12, de 10/11/2026](https://www.cgibs.gov.br/upload/arquivos/202611/12154837-ato-tecnico-conjunto-12-dir.pdf). Os atos não mudam alíquotas; fixam o padrão técnico. A importação de bens com IBS/CBS na Duimp é obrigatória a partir de 1º/1/2027 (tabela acima): confirme com o despachante e com o fornecedor do sistema que já usam essas versões.
 
 ## 3. Nota de débito e nota de crédito
 
@@ -201,6 +218,7 @@ Qualquer dos três caminhos quita o débito daquela nota; é isso que libera o c
 
 - **Testes:** desde 15/10/2026, só entre as instituições de pagamento e a plataforma pública; nenhuma transação real é processada ([Receita Federal, comunicado de 30/09/2026](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/comunicado-5)).
 - **1ª etapa:** prevista para o 2º semestre de 2027, facultativa, só para operações entre empresas (B2B), por TED, TEF, boleto e Pix. Cartões e vendas a consumidor ficam para depois ([Convergência Digital](https://convergenciadigital.com.br/governo/reforma-tributaria-split-payment-comeca-sem-vendas-a-pessoas-fisicas-e-pagamentos-com-cartao/)).
+- **Calendário divulgado pela imprensa:** segundo o divulgado (Folha de S.Paulo, reproduzida pelo [Sindifisco-MS em 28/10/2026](https://www.sindifisco-ms.org.br/split-payment-da-reforma-tributaria-tera-liberacao-gradual-a-partir-de-agosto-de-2027/)), testes com transações a partir de 01/03/2027 e liberação em 02/08/2027 para TEF, TED e Pix com chave ou QR Code estático, e em 04/10/2027 para boleto e Pix com QR Code dinâmico ou automático. Ainda não há ato oficial com essas datas.
 - **Obrigatoriedade:** sem data. A Receita afirma que ainda não é possível dizer quando. A base legal permite implantação em no mínimo duas etapas, por ato conjunto RFB/CGIBS (art. 33 do Regulamento da CBS).
 
 **Ouvi dizer que o split payment só vira obrigatório em 2028. É verdade?** É o que a Receita Federal declarou à imprensa em 31/08/2026: opcional em 2027 e obrigatório a partir de 2028 nas operações entre empresas. Ainda não há ato oficial com essa data, então trate como previsão. Na parte técnica, a NT 2026.006 (v1.01, de 30/10/2026) já prevê os campos que ligam a NF-e à transação de pagamento sujeita ao split ([Portal da Reforma Tributária](https://www.reformatributaria.com/tecnologia/split-payment-so-sera-obrigatorio-em-2028-diz-receita-federal/); [Portal da NF-e, documentos](https://dfe-portal.svrs.rs.gov.br/NFe/Documentos)).
@@ -271,11 +289,15 @@ Redação atualizada em 10/11/2026 (fonte: [CGIBS, 30/09/2026](https://www.cgibs
 
 **Meu cliente do regime regular perde crédito por comprar de mim, que sou do Simples?** Não perde, mas o crédito dele é limitado ao IBS/CBS que você recolheu no DAS, que é bem menor do que a alíquota cheia (seção 5). Esse é o principal argumento comercial a favor do híbrido.
 
-**E o MEI?** Continua pagando valor fixo mensal. Em 2027 e 2028 a parcela fixa de tributos sobre consumo segue em R$ 7,00 (ICMS R$ 1,00 e ISS R$ 5,00, com R$ 0,994 de CBS e R$ 0,006 de IBS), além do INSS. Como optante do Simples, entra na regra de documentos fiscais com IBS/CBS a partir de 1º/1/2027 (o Ato Conjunto nº 4/2026 não traz regra específica para o MEI).
+**E o MEI?** Continua pagando valor fixo mensal. Em 2027 e 2028 a parcela fixa de tributos sobre consumo segue em R$ 7,00 (ICMS R$ 1,00 e ISS R$ 5,00, com R$ 0,994 de CBS e R$ 0,006 de IBS), além do INSS. ~~Como optante do Simples, entra na regra de documentos fiscais com IBS/CBS a partir de 1º/1/2027 (o Ato Conjunto nº 4/2026 não traz regra específica para o MEI)~~.
+
+Redação atualizada em 13/11/2026 (fonte: [Ato Conjunto RFB/CGIBS nº 7, de 11/11/2026](https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-7-de-11-de-novembro-de-2026-744148934)): como optante do Simples, o MEI segue o calendário do Simples: NFS-e com IBS/CBS a partir de 1º/1/2027 e NF-e ou NFC-e de mercadorias a partir de 1º/3/2027. O ato não traz regra específica para o MEI.
 
 **O MEI vai precisar emitir nota para pessoa física em 2027?** Nas vendas e serviços a consumidor final pessoa física sem CNPJ, a própria DASN-SIMEI (a declaração anual do MEI) poderá valer como documento fiscal eletrônico. É o que diz a Res. CGSN nº 195/2026 (DOU de 22/10/2026), com efeitos a partir de 1º/1/2027. Nas vendas para empresas, continuam valendo as regras de emissão de nota do MEI ([texto da Res. CGSN nº 195/2026](https://netcpa.com.br/colunas/resolucao-cgsn-no-1952026-altera-a-resolucao-cgsn-no-14018-que-dispoe-sobre-o-regime-especial-unificado-de-arrecadacao-de-tributos-e-contribuicoes-sn/28572)).
 
-**Empresa do Simples precisa mudar a nota?** Sim. A partir de 1º/1/2027 todos os documentos fiscais do optante exigem os grupos de IBS/CBS (Ato Conjunto RFB/CGIBS nº 4/2026, art. 1º, § 1º), e a NFS-e passa a ser a nacional. O CST e o cClassTrib próprios do Simples precisam estar parametrizados no emissor.
+**Empresa do Simples precisa mudar a nota?** Sim. ~~A partir de 1º/1/2027 todos os documentos fiscais do optante exigem os grupos de IBS/CBS (Ato Conjunto RFB/CGIBS nº 4/2026, art. 1º, § 1º), e a NFS-e passa a ser a nacional.~~ O CST e o cClassTrib próprios do Simples precisam estar parametrizados no emissor.
+
+Redação atualizada em 13/11/2026 (fonte: [Ato Conjunto RFB/CGIBS nº 7, de 11/11/2026](https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-7-de-11-de-novembro-de-2026-744148934)): os grupos de IBS/CBS passam a ser exigidos do optante em duas datas (art. 1º, § 1º, do Ato Conjunto nº 4/2026, na redação do Ato Conjunto nº 7/2026): 1º/1/2027 para a NFS-e de serviços sujeitos ao ISS, bens imateriais, condomínio, locação e demais serviços; 1º/3/2027 para os demais documentos, inclusive NF-e e NFC-e nas vendas de mercadorias. A NFS-e nacional já é obrigatória para ME e EPP do Simples desde 1º/11/2026.
 
 ## 9. Créditos, fornecedores e formação de preço
 
@@ -309,6 +331,11 @@ O que precisa estar configurado e testado em homologação antes de 1º/1/2027, 
 - [ ] Emissão de NF-e sem inscrição estadual para quem não é contribuinte do ICMS (NT 2026.007 v1.11, obrigatória em 01/12/2026).
 - [ ] DANFE com o bloco de totais de IBS/CBS/IS (NT 2026.010, até dezembro de 2026).
 - [ ] NFS-e no leiaute da NT 009 v1.01 (produção prevista em 01/12/2026); Simples já no Emissor Nacional desde 01/11/2026.
+- [ ] Tabela de CFOP com o indicador indExcIBSCBS (Informe Técnico 2023.002 v2.00): quem emite NF-e sem inscrição estadual só usa os CFOPs marcados, sob pena de rejeição 159 (segundo o divulgado, em produção desde 03/11/2026).
+- [ ] Autorização síncrona da NF-e e da NFC-e e lote de NFC-e com uma nota só (NT 2023.002 v1.02, produção prevista em 05/04/2027); controle interno da numeração não usada no AC, na BA e em SP.
+- [ ] Importação: Duimp no leiaute 77.0.0 e DIR no leiaute 1.0, com IBS/CBS (Atos Técnicos Conjuntos RFB/CGIBS nº 11 e 12/2026).
+- [ ] Datas de início do IBS/CBS por documento conforme o Ato Conjunto RFB/CGIBS nº 7/2026: no Simples, NFS-e em 01/01/2027 e NF-e e NFC-e em 01/03/2027; NFS-e de condomínio e locação em 01/01/2027; NFS-e de plataformas digitais, software, processamento de dados e conteúdo pela internet em 01/03/2027.
+- [ ] Correlação entre item da lista de serviços, NBS, cClassTrib e cIndOp pelo Anexo VIII v1.02.00 da NFS-e (26/10/2026).
 
 **Cadastro de produtos e serviços**
 
@@ -500,6 +527,10 @@ Serviço passa a ter IBS/CBS como mercadoria, mas várias profissões e áreas t
 
 **Contratei um autônomo pessoa física (RPA). Tem IBS/CBS?** Depende. Pessoa física que presta serviço de forma habitual ou profissional é contribuinte (art. 19). Não é contribuinte o "nanoempreendedor": pessoa física com receita bruta abaixo de 50% do limite do MEI, que não seja MEI (art. 25, IV). Do nanoempreendedor não há crédito.
 
+**Contratei um autônomo que é nanoempreendedor. Ele precisa me dar nota?** Não, até 31/12/2028. O [Ato Conjunto RFB/CGIBS nº 6, de 28/08/2026](https://www.cgibs.gov.br/receita-federal-do-brasil-e-o-comite-gestor-do-ibs-publicam-norma-que-estabe), dispensa o nanoempreendedor (pessoa física com receita abaixo de 50% do limite do MEI, que não seja MEI) de se inscrever no CNPJ e de emitir os documentos fiscais do IBS e da CBS. A dispensa não vale para quem optar pelo regime regular do IBS e da CBS. Para quem contrata, o crédito não muda: do nanoempreendedor não há crédito de IBS/CBS. Guarde o recibo ou o RPA com os dados do prestador.
+
+**Sou autônomo pessoa física e contribuinte do IBS e da CBS. Vou precisar de CNPJ?** Sim, a partir de 1º/1/2027. O [Decreto nº 13.075, de 21/07/2026](https://www2.camara.leg.br/legin/fed/decret/2026/decreto-13075-21-julho-2026-799662-publicacaooriginal-180556-pe.html) fixou essa data para a inscrição no CNPJ e para a emissão de documentos fiscais pela pessoa física contribuinte ou responsável da CBS e pelo produtor rural pessoa física contribuinte (arts. 105, § 4º-A, e 115, § 3º, do Regulamento da CBS). Até 31/12/2026 valem as formas atuais de identificação. O nanoempreendedor está dispensado (resposta acima), e o MEI continua com o CNPJ que já tem.
+
 **Contratei um MEI.** O MEI emite nota normalmente, mas o crédito é só do pouco que ele recolhe de CBS/IBS no valor fixo: centavos. Para quem é do regime regular, o MEI "barato" pode sair mais caro que uma empresa que dá crédito cheio.
 
 **Minha empresa de serviços é do Simples. A redução de 30% ou de 60% muda o meu DAS?** Não. No Simples convencional vale a tabela do anexo; as reduções de alíquota do IBS/CBS importam para quem está no regime regular ou no híbrido.
@@ -529,6 +560,8 @@ Imóveis têm regras próprias: aluguel com redução de 70%, administração e 
 **O condomínio vai pagar IBS/CBS sobre a taxa condominial?** Não. O condomínio edilício não é contribuinte (art. 25, I; cClassTrib 410012), salvo se optar pelo regime regular. Atenção a um detalhe: se as taxas cobradas dos condôminos forem menos de 80% da receita total (muita receita de aluguel de salão, antena, vaga), o condomínio paga sobre essas outras receitas, com crédito proporcional (art. 25, § 4º).
 
 **O condomínio tem crédito sobre o que contrata (portaria, limpeza, manutenção)?** Não, enquanto não for contribuinte. O custo dos serviços terceirizados com IBS/CBS fica integral para os condôminos. Optar pelo regime regular dá crédito, mas passa a tributar todas as taxas; raramente compensa.
+
+**O condomínio ou a minha empresa de aluguel vai ter de emitir nota com IBS/CBS? Desde quando?** A NFS-e com IBS/CBS para cobrança de taxas e outras receitas de condomínio edilício, para locação, cessão ou arrendamento de imóveis e para locação de bens móveis passa a ser obrigatória em 1º/1/2027, também para o Simples; antes a data era 01/12/2026 ([Ato Conjunto RFB/CGIBS nº 7, de 11/11/2026](https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-7-de-11-de-novembro-de-2026-744148934)). A data é do documento: ela não torna tributada a taxa condominial do condomínio que não é contribuinte (respostas acima). Confirme com o emissor e com o município como o condomínio deve emitir.
 
 **Vou vender um imóvel da empresa em 2027.** Paga IBS/CBS com redução de 50%, sobre a base reduzida pelo redutor de ajuste (o custo do imóvel fixado em 31/12/2026, atualizado). Imóvel residencial novo tem ainda redutor social de R$ 100 mil (arts. 369 a 379).
 
@@ -568,7 +601,7 @@ Frases que o empresário ouve por aí, com a resposta curta.
 | --- | --- | --- |
 | "Em 2027 vou pagar 26,5% de imposto" | Mito | Em 2027 é CBS (proposta de 11,3% menos 0,1 p.p.) mais IBS de 0,1%, no lugar de PIS/COFINS. O IBS cheio só chega em 2033. |
 | "O Simples Nacional acabou" | Mito | Continua, com a mesma tabela em 2027; mudam a partilha, as notas e algumas regras de cálculo. |
-| "Quem é do Simples não precisa fazer nada" | Mito | Notas com IBS/CBS a partir de janeiro, NFS-e nacional, fim do regime de caixa, novo cálculo do RBT12. |
+| "Quem é do Simples não precisa fazer nada" | Mito | ~~Notas com IBS/CBS a partir de janeiro~~ (redação atualizada em 13/11/2026, Ato Conjunto RFB/CGIBS nº 7/2026: notas de serviço com IBS/CBS em janeiro e de mercadorias em março de 2027), NFS-e nacional, fim do regime de caixa, novo cálculo do RBT12. |
 | "Em janeiro o banco vai reter imposto de todo Pix" | Mito | Split payment só no 2º semestre de 2027, facultativo e só entre empresas. |
 | "Nota sem IBS/CBS é rejeitada" | Hoje, mito | A trava está suspensa, mas a obrigação de destacar vale e a apuração de 2027 sai das notas. |
 | "O ICMS e o ISS acabam em 2027" | Mito | Continuam iguais até 2028, caem de 2029 a 2032 e acabam em 2033. |
@@ -585,7 +618,7 @@ Frases que o empresário ouve por aí, com a resposta curta.
 
 ## 20. Pontos em aberto e fontes
 
-~~Sete~~ ~~Oito (atualizado em 05/11/2026)~~ Nove (atualizado em 12/11/2026) pontos ainda dependem de ato oficial e devem ser revisados neste FAQ assim que saírem.
+~~Sete~~ ~~Oito (atualizado em 05/11/2026)~~ ~~Nove (atualizado em 12/11/2026)~~ Dez (atualizado em 13/11/2026) pontos ainda dependem de ato oficial e devem ser revisados neste FAQ assim que saírem.
 
 - [ ] Alíquota de referência da CBS para 2027: resolução do Senado até 15/12/2026 (proposta do TCU: 11,3%).
 - [ ] Nova data para a rejeição de notas sem IBS/CBS (suspensa pelo Ato Técnico Conjunto nº 1/2026).
@@ -597,6 +630,8 @@ Frases que o empresário ouve por aí, com a resposta curta.
 - [ ] Crédito presumido de estoque para empresa do Simples que optou pelo híbrido.
 - [ ] Votação da MP nº 1.399/2026 (Imposto Seletivo 2027) pelo Congresso e projeto de lei com as alíquotas definitivas, previsto até 31/05/2027.
 - [ ] Regulamento revisado da CBS e do IBS (versão 2.0), atos conjuntos RFB/CGIBS previstos até o início de dezembro de 2026 e proposta de lei complementar com a regra opcional de crédito estimado na primeira apuração da CBS, anunciados em 11/11/2026.
+- [ ] ~~Ato conjunto RFB/CGIBS que formalize o adiamento para 01/03/2027 de seis documentos fiscais (entre eles o do Simples Nacional nas vendas de mercadorias), anunciado em 11/11/2026.~~ Resolvido em 13/11/2026: publicado o Ato Conjunto RFB/CGIBS nº 7, de 11/11/2026; no Simples, NFS-e com IBS/CBS em 01/01/2027 e demais documentos em 01/03/2027 (seções 1, 2, 8 e 17).
+- [ ] Ato conjunto RFB/CGIBS que dispense de inscrição no CNPJ, de 01/01/2027 a 31/12/2028, o produtor rural pessoa física com receita abaixo de R$ 3,6 milhões e o transportador autônomo de cargas que não optarem pelo regime regular, aprovado pelo CGIBS em 10/11/2026.
 
 **Legislação**
 
@@ -607,6 +642,9 @@ Frases que o empresário ouve por aí, com a resposta curta.
 - Informe Técnico 2025.002 v1.60 (tabelas cClassTrib, CST, cIndOp), de 22/06/2026.
 - Res. CGSN nº 191/2026 (NFS-e nacional no Simples), nº 194/2026 (prazos de opção para 2027) e nº 195/2026 (DASN-SIMEI como documento fiscal do MEI).
 - Notas técnicas da NF-e 2025.002 v1.53, 2026.005, 2026.006 v1.01, 2026.007 v1.11, 2026.008 v1.01 e 2026.010, e NT 009 v1.01 da NFS-e.
+- NT 2023.002 v1.02 da NF-e e NFC-e (fim da autorização assíncrona) e Informe Técnico 2023.002 v2.00 (tabela de CFOP com o indicador indExcIBSCBS).
+- Ato Conjunto RFB/CGIBS nº 6/2026 (dispensas do nanoempreendedor) e Atos Técnicos Conjuntos RFB/CGIBS nº 11 e 12/2026 (leiautes da Duimp e da DIR).
+- Ato Conjunto RFB/CGIBS nº 7, de 11/11/2026 (novas datas de documentos fiscais e da DeRE), Decreto nº 13.075, de 21/07/2026 (CNPJ da pessoa física contribuinte a partir de 2027), Anexo VIII v1.02.00 da NFS-e (correlação item de serviço, NBS, cClassTrib e cIndOp) e Informe Técnico 2025.002 v1.71 (tabela cClassTrib e CST).
 
 **Atos e comunicados consultados**
 
@@ -632,6 +670,11 @@ Cada mudança neste FAQ fica registrada aqui, da mais recente para a mais antiga
 
 | Data | Seção | O que mudou | Fonte |
 | --- | --- | --- | --- |
+| 13/11/2026 | 2, 10 e 20 | Novas perguntas na seção 2: fim da autorização assíncrona da NF-e e da NFC-e (NT 2023.002 v1.02, publicada em 26/10/2026; produção prevista em 05/04/2027, segundo o divulgado) e leiautes de importação com IBS/CBS (Duimp 77.0.0 e DIR 1.0, Atos Técnicos Conjuntos RFB/CGIBS nº 11 e 12, de 10/11/2026). Checklist do ERP com esses itens e com a tabela de CFOP do Informe Técnico 2023.002 v2.00 (indicador indExcIBSCBS para quem emite NF-e sem inscrição estadual). NT 2023.002 e IT 2023.002 são atos anteriores, identificados nesta revisão. | [Portal da NF-e](https://dfe-portal.svrs.rs.gov.br/NFe/Documentos); [Ato Técnico Conjunto nº 11/2026](https://www.cgibs.gov.br/upload/arquivos/202611/12145422-ato-tecnico-conjunto-11-duimp.pdf); [Ato Técnico Conjunto nº 12/2026](https://www.cgibs.gov.br/upload/arquivos/202611/12154837-ato-tecnico-conjunto-12-dir.pdf); [DFSpro](https://www.dfspro.com.br/blog/noticias-3/nt-2023-002-v1-02-acaba-com-a-autorizacao-assincrona-da-nf-e-em-05-04-2027-228) |
+| 13/11/2026 | 16 e 20 | Nova pergunta: o nanoempreendedor está dispensado de inscrição no CNPJ e de emitir documento fiscal do IBS e da CBS até 31/12/2028, salvo se optar pelo regime regular (Ato Conjunto RFB/CGIBS nº 6, de 28/08/2026). Ato anterior, identificado nesta revisão. | [CGIBS (28/08/2026)](https://www.cgibs.gov.br/receita-federal-do-brasil-e-o-comite-gestor-do-ibs-publicam-norma-que-estabe); [texto do Ato Conjunto nº 6/2026](https://www.cgibs.gov.br/upload/arquivos/202608/28193542-ade-rfb-cgibs-n-6-28-8-2026-com-paragrafo-unico-assinado.pdf) |
+| 13/11/2026 | 6 | Calendário do split payment divulgado pela imprensa incluído na resposta, com a expressão "segundo o divulgado": testes com transações a partir de 01/03/2027 e liberação em 02/08/2027 (TEF, TED, Pix com chave ou QR Code estático) e em 04/10/2027 (boleto e Pix dinâmico ou automático). Sem ato oficial; pendência do ato conjunto do split payment mantida. | [Sindifisco-MS, citando a Folha de S.Paulo (28/10/2026)](https://www.sindifisco-ms.org.br/split-payment-da-reforma-tributaria-tera-liberacao-gradual-a-partir-de-agosto-de-2027/) |
+| 13/11/2026 | 2, 5, 8 e 20 | A confirmar (anúncio sem ato publicado, texto não alterado): detalhes da coletiva de 11/11/2026. O Conselho Superior do CGIBS aprovou em 10/11/2026 o adiamento para 01/03/2027 de seis documentos fiscais: documento do Simples Nacional nas operações com mercadorias; NFS-e de plataformas digitais, processamento de dados, software e conteúdo pela internet; NF-e de alienação de bens imóveis; BP-e aéreo; BP-e de transporte metropolitano; NFS-e do transporte coletivo municipal. Serviços prestados por optantes do Simples e documentos de locação e arrendamento continuam exigidos em janeiro de 2027. A apresentação cita só mercadorias, mas o secretário da Receita disse que tudo o que não é prestação de serviço no Simples será adiado; a redação final depende do ato. Também anunciados: projeto de lei complementar, sem número e ainda não enviado, para pagar a CBS de 2027 em duas etapas (estimativa no mês seguinte e ajuste no segundo mês); e CNPJ vinculado ao CPF para autônomos emitirem nota de serviço a partir de dezembro. Até a publicação do ato, vale o cronograma do Ato Conjunto RFB/CGIBS nº 4/2026; pendência incluída na seção 20. | [Barbieri Advogados (12/11/2026)](https://www.barbieriadvogados.com/adiamento-documentos-fiscais-simples-marco-2027/); [Fenacon](https://fenacon.org.br/noticias/fisco-adia-para-marco-de-2027-exigencias-da-reforma-tributaria-para-empresas-do-simples/); [Gazeta do Povo (12/11/2026)](https://www.gazetadopovo.com.br/republica/receita-propoe-adiar-recolhimento-da-cbs-e-flexibiliza-transicao-da-reforma-tributaria/) |
+| 13/11/2026 | 1 e 20 | Alíquota da CBS 2027: segundo o divulgado, a CAE fará audiências em 17/11/2026 (ministro da Fazenda, secretário da Receita e presidente do TCU) e 18/11/2026 (especialistas). Prazo de 15/12/2026 mantido; item da seção 20 segue pendente. A confirmar (projeto, texto não alterado): o PLP 45/2026, aprovado na Comissão de Assuntos Sociais do Senado em 11/11/2026, permite a entidades filantrópicas de educação, saúde e assistência social manter os créditos de IBS/CBS das compras; segue para a CAE. | [Congresso em Foco (11/11/2026)](https://www.congressoemfoco.com.br/noticia/131494/senado-ouvira-durigan-e-vital-do-rego-na-proxima-semana-sobre-cbs); [Senado Notícias (11/11/2026)](https://www12.senado.leg.br/noticias/materias/2026/11/11/cas-garante-creditos-de-tributos-sobre-consumo-para-entidades-filantropicas) |
 | 12/11/2026 | 2, 10 e 20 | Revisão completa: NFS-e nacional obrigatória para ME e EPP do Simples desde 01/11/2026 confirmada no texto oficial da Res. CGSN nº 191/2026 (pendência da seção 20 resolvida). Incluídas as notas técnicas da NF-e de 30/10/2026 e 01/10/2026: NT 2026.008 v1.01 (IBS/CBS/IS fora do vProd e campos de valor líquido), NT 2026.007 v1.11 (NF-e sem inscrição estadual, obrigatória em 01/12/2026) e NT 2026.010 (novo DANFE), e a NT 009 v1.01 da NFS-e (novo leiaute, produção prevista em 01/12/2026). Checklist do ERP atualizado e nova pendência: data das notas de crédito e débito na NFS-e. | [Res. CGSN nº 191/2026 (DOU 10/08/2026)](https://economia.df.gov.br/documents/d/seec/resol-cgsn-n-191-2026-pdf); [Portal da NF-e](https://dfe-portal.svrs.rs.gov.br/NFe/Documentos); [Portal da NFS-e (RTC)](https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc) |
 | 12/11/2026 | 8 | Nova pergunta sobre o MEI: a Res. CGSN nº 195/2026 (DOU de 22/10/2026) permite usar a DASN-SIMEI como documento fiscal eletrônico nas vendas a consumidor pessoa física sem CNPJ, a partir de 01/01/2027. Ato anterior, identificado nesta revisão. | [Texto da Res. CGSN nº 195/2026](https://netcpa.com.br/colunas/resolucao-cgsn-no-1952026-altera-a-resolucao-cgsn-no-14018-que-dispoe-sobre-o-regime-especial-unificado-de-arrecadacao-de-tributos-e-contribuicoes-sn/28572) |
 | 12/11/2026 | 6 | A confirmar (declaração à imprensa, sem ato oficial): a Receita Federal informou em 31/08/2026 que o split payment será opcional em 2027 e obrigatório a partir de 2028 nas operações entre empresas. Incluída pergunta na seção 6 indicando que é previsão; a NT 2026.006 v1.01 já traz os campos que ligam a NF-e ao pagamento. | [Portal da Reforma Tributária (31/08/2026)](https://www.reformatributaria.com/tecnologia/split-payment-so-sera-obrigatorio-em-2028-diz-receita-federal/) |
